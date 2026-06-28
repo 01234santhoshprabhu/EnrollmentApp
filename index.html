@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f68d5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="NPTEL Enroll">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>NPTEL Enrollment Auto Dashboard</title>
+  <style>
+    :root {
+      --bg: #eef3f8;
+      --panel: #ffffff;
+      --line: #d6dfeb;
+      --text: #0d1b33;
+      --muted: #56657c;
+      --blue: #1f68d5;
+      --green: #0e8a61;
+      --amber: #9a6a00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0;
+    }
+    header {
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .app-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 26px;
+      line-height: 1.2;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .time {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 14px;
+      background: #fbfdff;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    main {
+      width: min(1360px, calc(100% - 32px));
+      margin: 22px auto 40px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(260px, 1fr));
+      gap: 12px 28px;
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .meta strong { color: var(--text); }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(160px, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .card, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .card {
+      padding: 18px;
+      min-height: 108px;
+    }
+    .label {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    .value {
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .value.good { color: var(--green); }
+    .value.warn { color: var(--amber); }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .panel {
+      padding: 16px;
+      overflow: hidden;
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .tools {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    button, .download {
+      background: var(--blue);
+      border: 1px solid var(--blue);
+      color: #fff;
+      border-radius: 6px;
+      padding: 9px 12px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .ghost {
+      background: #ffffff;
+      color: var(--blue);
+    }
+    input {
+      width: min(280px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-size: 14px;
+    }
+    .table-wrap {
+      overflow: auto;
+      max-height: 560px;
+      border: 1px solid #e6edf5;
+      border-radius: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      background: #f3f6fa;
+      color: var(--muted);
+      text-align: left;
+      z-index: 1;
+    }
+    th, td {
+      padding: 11px 10px;
+      border-bottom: 1px solid #e6edf5;
+      vertical-align: top;
+    }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .empty {
+      padding: 18px;
+      color: var(--muted);
+      border: 1px solid #e6edf5;
+      border-radius: 6px;
+    }
+    @media (max-width: 900px) {
+      header { align-items: flex-start; }
+      .meta, .cards, .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 22px; }
+      main { width: calc(100% - 20px); margin-top: 12px; }
+      header { padding: 14px 12px; }
+      .time { width: 100%; white-space: normal; }
+      .card { min-height: 86px; padding: 14px; }
+      .value { font-size: 28px; }
+      .panel { padding: 12px; }
+      .table-wrap { max-height: 420px; }
+      th, td { padding: 10px 8px; font-size: 13px; }
+      .tools button, .tools .download, .tools input { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>NPTEL Enrollment Auto Dashboard</h1>
+      <div class="sub">Display refreshes every 10 seconds. GitHub Action can regenerate data about every 5 minutes.</div>
+    </div>
+    <div class="app-actions">
+      <button class="ghost" id="manualRefresh" type="button">Refresh</button>
+      <div class="time" id="timeBox">Loading...</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="meta">
+      <div>Data source: <strong>GitHub summary.json</strong></div>
+      <div>CSV report: <strong>enrollment_report.csv</strong></div>
+      <div>Display refresh: <strong>Every 10 seconds</strong></div>
+      <div>Automatic data regeneration: <strong>GitHub Actions schedule</strong></div>
+    </section>
+
+    <section class="cards">
+      <div class="card"><div class="label">Courses</div><div class="value" id="courseCount">0</div></div>
+      <div class="card"><div class="label">Numeric Counts</div><div class="value good" id="numericCount">0</div></div>
+      <div class="card"><div class="label">Missing/Error</div><div class="value warn" id="errorCount">0</div></div>
+      <div class="card"><div class="label">Total Enrollment</div><div class="value" id="totalEnrollment">0</div></div>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Top Courses</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Course ID</th><th>Learners</th></tr></thead>
+            <tbody id="topBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Missing Courses</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Course ID</th><th>Status</th></tr></thead>
+            <tbody id="errorBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Enrollment Count</h2>
+      <div class="tools">
+        <button id="copyBtn" type="button">Copy table</button>
+        <a class="download" id="csvLink" href="enrollment_report.csv" download>Download CSV</a>
+        <input id="searchBox" placeholder="Search course ID or status">
+        <span class="sub" id="shownCount">0 rows shown</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Course ID</th><th>Learners Enrolled</th><th>Status</th></tr></thead>
+          <tbody id="allBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const fmt = new Intl.NumberFormat("en-IN");
+    let allRows = [];
+
+    function text(value) {
+      return value === null || value === undefined ? "" : String(value);
+    }
+
+    function renderTable(body, rows, cells) {
+      body.innerHTML = "";
+      if (!rows.length) {
+        const tr = document.createElement("tr");
+        const td = document.createElement("td");
+        td.colSpan = cells.length;
+        td.className = "empty";
+        td.textContent = "No records to show.";
+        tr.appendChild(td);
+        body.appendChild(tr);
+        return;
+      }
+      const fragment = document.createDocumentFragment();
+      for (const row of rows) {
+        const tr = document.createElement("tr");
+        for (const cell of cells) {
+          const td = document.createElement("td");
+          if (cell.numeric) td.className = "num";
+          const value = cell.value(row);
+          td.textContent = typeof value === "number" ? fmt.format(value) : text(value);
+          tr.appendChild(td);
+        }
+        fragment.appendChild(tr);
+      }
+      body.appendChild(fragment);
+    }
+
+    function applySearch() {
+      const q = document.getElementById("searchBox").value.trim().toLowerCase();
+      const shown = q
+        ? allRows.filter(row => `${row.course_id} ${row.status}`.toLowerCase().includes(q))
+        : allRows;
+      renderTable(document.getElementById("allBody"), shown, [
+        { value: row => row.course_id },
+        { value: row => row.learners_enrolled, numeric: true },
+        { value: row => row.status }
+      ]);
+      document.getElementById("shownCount").textContent = `${fmt.format(shown.length)} rows shown`;
+    }
+
+    async function refresh() {
+      try {
+        const res = await fetch(`summary.json?t=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        allRows = Array.isArray(data.rows) ? data.rows : [];
+
+        document.getElementById("timeBox").textContent = `Data: ${data.updated_at || "-"} | Checked: ${new Date().toLocaleTimeString("en-IN")}`;
+        document.getElementById("courseCount").textContent = fmt.format(data.course_count || 0);
+        document.getElementById("numericCount").textContent = fmt.format(data.numeric_count || 0);
+        document.getElementById("errorCount").textContent = fmt.format(data.error_count || 0);
+        document.getElementById("totalEnrollment").textContent = fmt.format(data.total_enrollment || 0);
+        document.getElementById("csvLink").href = `enrollment_report.csv?t=${Date.now()}`;
+
+        renderTable(document.getElementById("topBody"), data.top_courses || [], [
+          { value: row => row.course_id },
+          { value: row => row.learners_enrolled, numeric: true }
+        ]);
+        renderTable(document.getElementById("errorBody"), data.errors || [], [
+          { value: row => row.course_id },
+          { value: row => row.status }
+        ]);
+        applySearch();
+      } catch (error) {
+        document.getElementById("timeBox").textContent = `Unable to load summary.json | Checked: ${new Date().toLocaleTimeString("en-IN")}`;
+      }
+    }
+
+    document.getElementById("searchBox").addEventListener("input", applySearch);
+    document.getElementById("manualRefresh").addEventListener("click", refresh);
+    document.getElementById("copyBtn").addEventListener("click", async () => {
+      const lines = [["Course ID", "Learners Enrolled", "Status"].join("\t")];
+      for (const row of allRows) {
+        lines.push([row.course_id, row.learners_enrolled || "", row.status || ""].join("\t"));
+      }
+      await navigator.clipboard.writeText(lines.join("\n"));
+      document.getElementById("copyBtn").textContent = "Copied";
+      setTimeout(() => document.getElementById("copyBtn").textContent = "Copy table", 1200);
+    });
+
+    refresh();
+    setInterval(refresh, 10000);
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    }
+  </script>
+</body>
+</html>
