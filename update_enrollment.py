@@ -217,6 +217,8 @@ def write_summary(rows):
 
     summary = {
         "updated_at": now_text(),
+        "generated_by": os.environ.get("GITHUB_ACTIONS") == "true" and "github-actions" or "local",
+        "github_run_id": os.environ.get("GITHUB_RUN_ID", ""),
         "course_count": len(rows),
         "numeric_count": len(numeric_rows),
         "error_count": len(error_rows),

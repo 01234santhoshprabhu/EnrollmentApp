@@ -364,7 +364,8 @@
         const data = await res.json();
         allRows = Array.isArray(data.rows) ? data.rows : [];
 
-        document.getElementById("timeBox").textContent = `Data: ${data.updated_at || "-"} | Checked: ${new Date().toLocaleTimeString("en-IN")}`;
+        const source = data.generated_by ? ` | ${data.generated_by}` : "";
+        document.getElementById("timeBox").textContent = `Data: ${data.updated_at || "-"} | Checked: ${new Date().toLocaleTimeString("en-IN")}${source}`;
         document.getElementById("courseCount").textContent = fmt.format(data.course_count || 0);
         document.getElementById("numericCount").textContent = fmt.format(data.numeric_count || 0);
         document.getElementById("errorCount").textContent = fmt.format(data.error_count || 0);
