@@ -26,6 +26,7 @@
       color: var(--text);
       font-family: Arial, Helvetica, sans-serif;
       letter-spacing: 0;
+      padding-bottom: env(safe-area-inset-bottom);
     }
     header {
       background: var(--panel);
@@ -136,6 +137,9 @@
       background: #ffffff;
       color: var(--blue);
     }
+    #installBtn {
+      display: none;
+    }
     input {
       width: min(280px, 100%);
       border: 1px solid var(--line);
@@ -174,8 +178,18 @@
       border: 1px solid #e6edf5;
       border-radius: 6px;
     }
+    .bottom-nav {
+      display: none;
+    }
     @media (max-width: 900px) {
-      header { align-items: flex-start; }
+      body { padding-bottom: 74px; }
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        align-items: flex-start;
+        box-shadow: 0 8px 24px rgba(13, 27, 51, .08);
+      }
       .meta, .cards, .grid { grid-template-columns: 1fr; }
       h1 { font-size: 22px; }
       main { width: calc(100% - 20px); margin-top: 12px; }
@@ -187,6 +201,37 @@
       .table-wrap { max-height: 420px; }
       th, td { padding: 10px 8px; font-size: 13px; }
       .tools button, .tools .download, .tools input { width: 100%; }
+      .meta { display: none; }
+      .grid { gap: 12px; }
+      .mobile-section { scroll-margin-top: 122px; }
+      .bottom-nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 6;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4px;
+        padding: 8px 8px calc(8px + env(safe-area-inset-bottom));
+        background: #ffffff;
+        border-top: 1px solid var(--line);
+        box-shadow: 0 -8px 24px rgba(13, 27, 51, .08);
+      }
+      .bottom-nav a {
+        color: var(--muted);
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 8px 4px;
+        border-radius: 8px;
+      }
+      .bottom-nav a:focus,
+      .bottom-nav a:hover {
+        background: #eef5ff;
+        color: var(--blue);
+      }
     }
   </style>
 </head>
@@ -197,6 +242,7 @@
       <div class="sub">Display refreshes every 10 seconds. GitHub Action can regenerate data about every 5 minutes.</div>
     </div>
     <div class="app-actions">
+      <button class="ghost" id="installBtn" type="button">Install</button>
       <button class="ghost" id="manualRefresh" type="button">Refresh</button>
       <div class="time" id="timeBox">Loading...</div>
     </div>
@@ -210,7 +256,7 @@
       <div>Automatic data regeneration: <strong>GitHub Actions schedule</strong></div>
     </section>
 
-    <section class="cards">
+    <section class="cards mobile-section" id="summarySection">
       <div class="card"><div class="label">Courses</div><div class="value" id="courseCount">0</div></div>
       <div class="card"><div class="label">Numeric Counts</div><div class="value good" id="numericCount">0</div></div>
       <div class="card"><div class="label">Missing/Error</div><div class="value warn" id="errorCount">0</div></div>
@@ -218,7 +264,7 @@
     </section>
 
     <section class="grid">
-      <div class="panel">
+      <div class="panel mobile-section" id="topSection">
         <h2>Top Courses</h2>
         <div class="table-wrap">
           <table>
@@ -227,7 +273,7 @@
           </table>
         </div>
       </div>
-      <div class="panel">
+      <div class="panel mobile-section" id="missingSection">
         <h2>Missing Courses</h2>
         <div class="table-wrap">
           <table>
@@ -238,7 +284,7 @@
       </div>
     </section>
 
-    <section class="panel">
+    <section class="panel mobile-section" id="allSection">
       <h2>Enrollment Count</h2>
       <div class="tools">
         <button id="copyBtn" type="button">Copy table</button>
@@ -255,9 +301,17 @@
     </section>
   </main>
 
+  <nav class="bottom-nav" aria-label="Mobile app navigation">
+    <a href="#summarySection">Summary</a>
+    <a href="#topSection">Top</a>
+    <a href="#missingSection">Missing</a>
+    <a href="#allSection">All</a>
+  </nav>
+
   <script>
     const fmt = new Intl.NumberFormat("en-IN");
     let allRows = [];
+    let deferredInstallPrompt = null;
 
     function text(value) {
       return value === null || value === undefined ? "" : String(value);
@@ -333,6 +387,18 @@
 
     document.getElementById("searchBox").addEventListener("input", applySearch);
     document.getElementById("manualRefresh").addEventListener("click", refresh);
+    window.addEventListener("beforeinstallprompt", event => {
+      event.preventDefault();
+      deferredInstallPrompt = event;
+      document.getElementById("installBtn").style.display = "inline-block";
+    });
+    document.getElementById("installBtn").addEventListener("click", async () => {
+      if (!deferredInstallPrompt) return;
+      deferredInstallPrompt.prompt();
+      await deferredInstallPrompt.userChoice;
+      deferredInstallPrompt = null;
+      document.getElementById("installBtn").style.display = "none";
+    });
     document.getElementById("copyBtn").addEventListener("click", async () => {
       const lines = [["Course ID", "Learners Enrolled", "Status"].join("\t")];
       for (const row of allRows) {

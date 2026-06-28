@@ -47,4 +47,4 @@ The page refreshes display data every 10 seconds. The GitHub Action regenerates 
 
 ## Mobile use
 
-Open the GitHub Pages link in Chrome or Safari. Use `Add to Home Screen` to install it like an app. It will still need internet for fresh counts.
+Open the GitHub Pages link in Chrome or Safari. On Android, tap `Install` if shown. On iPhone, use `Share > Add to Home Screen`. It will open like a mobile app and still need internet for fresh counts.

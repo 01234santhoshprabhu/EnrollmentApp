@@ -2,7 +2,9 @@
   "name": "NPTEL Enrollment Auto Dashboard",
   "short_name": "NPTEL Enroll",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#eef3f8",
   "theme_color": "#1f68d5",
   "icons": [
