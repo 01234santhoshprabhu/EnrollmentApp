@@ -1,15 +1,15 @@
 {
-  "updated_at": "14-07-2026 18:25:34",
+  "updated_at": "14-07-2026 20:16:21",
   "generated_by": "github-actions",
-  "github_run_id": "29334320587",
+  "github_run_id": "29342273886",
   "course_count": 1058,
   "numeric_count": 1054,
   "error_count": 4,
-  "total_enrollment": 1399384,
+  "total_enrollment": 1417040,
   "top_courses": [
     {
       "course_id": "noc26_cs161",
-      "learners_enrolled": 47463,
+      "learners_enrolled": 49563,
       "status": "OK",
       "error": ""
     },
@@ -21,13 +21,19 @@
     },
     {
       "course_id": "noc26_cs107",
-      "learners_enrolled": 30725,
+      "learners_enrolled": 31463,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs153",
-      "learners_enrolled": 30457,
+      "learners_enrolled": 31273,
+      "status": "OK",
+      "error": ""
+    },
+    {
+      "course_id": "noc26_cs144",
+      "learners_enrolled": 19568,
       "status": "OK",
       "error": ""
     },
@@ -39,25 +45,19 @@
     },
     {
       "course_id": "noc26_cs157",
-      "learners_enrolled": 18964,
-      "status": "OK",
-      "error": ""
-    },
-    {
-      "course_id": "noc26_cs144",
-      "learners_enrolled": 18932,
+      "learners_enrolled": 19482,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs160",
-      "learners_enrolled": 17799,
+      "learners_enrolled": 18398,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs141",
-      "learners_enrolled": 16870,
+      "learners_enrolled": 17438,
       "status": "OK",
       "error": ""
     },
@@ -69,7 +69,13 @@
     },
     {
       "course_id": "noc26_cs109",
-      "learners_enrolled": 14775,
+      "learners_enrolled": 15137,
+      "status": "OK",
+      "error": ""
+    },
+    {
+      "course_id": "noc26_cs129",
+      "learners_enrolled": 12879,
       "status": "OK",
       "error": ""
     },
@@ -86,12 +92,6 @@
       "error": ""
     },
     {
-      "course_id": "noc26_cs129",
-      "learners_enrolled": 12466,
-      "status": "OK",
-      "error": ""
-    },
-    {
       "course_id": "noc26_hs160",
       "learners_enrolled": 11698,
       "status": "OK",
@@ -104,20 +104,20 @@
       "error": ""
     },
     {
-      "course_id": "noc26_hs249",
-      "learners_enrolled": 10885,
+      "course_id": "noc26_hs193",
+      "learners_enrolled": 11174,
       "status": "OK",
       "error": ""
     },
     {
-      "course_id": "noc26_hs193",
-      "learners_enrolled": 10876,
+      "course_id": "noc26_hs249",
+      "learners_enrolled": 11131,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs112",
-      "learners_enrolled": 10797,
+      "learners_enrolled": 10999,
       "status": "OK",
       "error": ""
     },
@@ -163,13 +163,13 @@
     },
     {
       "course_id": "noc26_ae22",
-      "learners_enrolled": 157,
+      "learners_enrolled": 159,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae23",
-      "learners_enrolled": 470,
+      "learners_enrolled": 472,
       "status": "OK",
       "error": ""
     },
@@ -187,43 +187,43 @@
     },
     {
       "course_id": "noc26_ae26",
-      "learners_enrolled": 537,
+      "learners_enrolled": 552,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae27",
-      "learners_enrolled": 2878,
+      "learners_enrolled": 2915,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae28",
-      "learners_enrolled": 1405,
+      "learners_enrolled": 1434,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae29",
-      "learners_enrolled": 685,
+      "learners_enrolled": 695,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae30",
-      "learners_enrolled": 474,
+      "learners_enrolled": 481,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae31",
-      "learners_enrolled": 565,
+      "learners_enrolled": 577,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae32",
-      "learners_enrolled": 225,
+      "learners_enrolled": 228,
       "status": "OK",
       "error": ""
     },
@@ -241,13 +241,13 @@
     },
     {
       "course_id": "noc26_ae35",
-      "learners_enrolled": 391,
+      "learners_enrolled": 401,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ae36",
-      "learners_enrolled": 256,
+      "learners_enrolled": 262,
       "status": "OK",
       "error": ""
     },
@@ -259,7 +259,7 @@
     },
     {
       "course_id": "noc26_ae38",
-      "learners_enrolled": 276,
+      "learners_enrolled": 284,
       "status": "OK",
       "error": ""
     },
@@ -271,7 +271,7 @@
     },
     {
       "course_id": "noc26_ae40",
-      "learners_enrolled": 450,
+      "learners_enrolled": 473,
       "status": "OK",
       "error": ""
     },
@@ -283,13 +283,13 @@
     },
     {
       "course_id": "noc26_ae42",
-      "learners_enrolled": 348,
+      "learners_enrolled": 349,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ag17",
-      "learners_enrolled": 259,
+      "learners_enrolled": 260,
       "status": "OK",
       "error": ""
     },
@@ -301,13 +301,13 @@
     },
     {
       "course_id": "noc26_ag19",
-      "learners_enrolled": 853,
+      "learners_enrolled": 861,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ag20",
-      "learners_enrolled": 2081,
+      "learners_enrolled": 2118,
       "status": "OK",
       "error": ""
     },
@@ -319,25 +319,25 @@
     },
     {
       "course_id": "noc26_ag22",
-      "learners_enrolled": 542,
+      "learners_enrolled": 547,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ag23",
-      "learners_enrolled": 3233,
+      "learners_enrolled": 3341,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ag24",
-      "learners_enrolled": 917,
+      "learners_enrolled": 942,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ag25",
-      "learners_enrolled": 921,
+      "learners_enrolled": 935,
       "status": "OK",
       "error": ""
     },
@@ -349,7 +349,7 @@
     },
     {
       "course_id": "noc26_ag27",
-      "learners_enrolled": 821,
+      "learners_enrolled": 834,
       "status": "OK",
       "error": ""
     },
@@ -361,7 +361,7 @@
     },
     {
       "course_id": "noc26_ar18",
-      "learners_enrolled": 531,
+      "learners_enrolled": 583,
       "status": "OK",
       "error": ""
     },
@@ -385,7 +385,7 @@
     },
     {
       "course_id": "noc26_ar22",
-      "learners_enrolled": 272,
+      "learners_enrolled": 278,
       "status": "OK",
       "error": ""
     },
@@ -397,7 +397,7 @@
     },
     {
       "course_id": "noc26_ar24",
-      "learners_enrolled": 794,
+      "learners_enrolled": 828,
       "status": "OK",
       "error": ""
     },
@@ -409,7 +409,7 @@
     },
     {
       "course_id": "noc26_ar26",
-      "learners_enrolled": 253,
+      "learners_enrolled": 257,
       "status": "OK",
       "error": ""
     },
@@ -439,25 +439,25 @@
     },
     {
       "course_id": "noc26_ar31",
-      "learners_enrolled": 515,
+      "learners_enrolled": 519,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ar32",
-      "learners_enrolled": 230,
+      "learners_enrolled": 236,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ar33",
-      "learners_enrolled": 1495,
+      "learners_enrolled": 1593,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ar34",
-      "learners_enrolled": 588,
+      "learners_enrolled": 626,
       "status": "OK",
       "error": ""
     },
@@ -481,19 +481,19 @@
     },
     {
       "course_id": "noc26_ar38",
-      "learners_enrolled": 308,
-      "status": "OK",
-      "error": ""
-    },
-    {
-      "course_id": "noc26_ar39",
       "learners_enrolled": 316,
       "status": "OK",
       "error": ""
     },
     {
+      "course_id": "noc26_ar39",
+      "learners_enrolled": 320,
+      "status": "OK",
+      "error": ""
+    },
+    {
       "course_id": "noc26_ar40",
-      "learners_enrolled": 304,
+      "learners_enrolled": 305,
       "status": "OK",
       "error": ""
     },
@@ -517,7 +517,7 @@
     },
     {
       "course_id": "noc26_bt51",
-      "learners_enrolled": 526,
+      "learners_enrolled": 530,
       "status": "OK",
       "error": ""
     },
@@ -529,7 +529,7 @@
     },
     {
       "course_id": "noc26_bt53",
-      "learners_enrolled": 123,
+      "learners_enrolled": 129,
       "status": "OK",
       "error": ""
     },
@@ -547,13 +547,13 @@
     },
     {
       "course_id": "noc26_bt57",
-      "learners_enrolled": 388,
+      "learners_enrolled": 393,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_bt58",
-      "learners_enrolled": 775,
+      "learners_enrolled": 783,
       "status": "OK",
       "error": ""
     },
@@ -595,13 +595,13 @@
     },
     {
       "course_id": "noc26_bt66",
-      "learners_enrolled": 795,
+      "learners_enrolled": 817,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_bt67",
-      "learners_enrolled": 362,
+      "learners_enrolled": 365,
       "status": "OK",
       "error": ""
     },
@@ -643,7 +643,7 @@
     },
     {
       "course_id": "noc26_bt74",
-      "learners_enrolled": 476,
+      "learners_enrolled": 478,
       "status": "OK",
       "error": ""
     },
@@ -655,13 +655,13 @@
     },
     {
       "course_id": "noc26_bt77",
-      "learners_enrolled": 338,
+      "learners_enrolled": 341,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_bt78",
-      "learners_enrolled": 2106,
+      "learners_enrolled": 2159,
       "status": "OK",
       "error": ""
     },
@@ -697,7 +697,7 @@
     },
     {
       "course_id": "noc26_bt84",
-      "learners_enrolled": 999,
+      "learners_enrolled": 1037,
       "status": "OK",
       "error": ""
     },
@@ -727,7 +727,7 @@
     },
     {
       "course_id": "noc26_bt89",
-      "learners_enrolled": 1522,
+      "learners_enrolled": 1575,
       "status": "OK",
       "error": ""
     },
@@ -739,19 +739,19 @@
     },
     {
       "course_id": "noc26_bt91",
-      "learners_enrolled": 2401,
+      "learners_enrolled": 2485,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_bt92",
-      "learners_enrolled": 753,
+      "learners_enrolled": 760,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_bt93",
-      "learners_enrolled": 1021,
+      "learners_enrolled": 1045,
       "status": "OK",
       "error": ""
     },
@@ -763,7 +763,7 @@
     },
     {
       "course_id": "noc26_bt95",
-      "learners_enrolled": 461,
+      "learners_enrolled": 494,
       "status": "OK",
       "error": ""
     },
@@ -775,7 +775,7 @@
     },
     {
       "course_id": "noc26_bt97",
-      "learners_enrolled": 1330,
+      "learners_enrolled": 1357,
       "status": "OK",
       "error": ""
     },
@@ -787,7 +787,7 @@
     },
     {
       "course_id": "noc26_bt99",
-      "learners_enrolled": 1590,
+      "learners_enrolled": 1607,
       "status": "OK",
       "error": ""
     },
@@ -805,7 +805,7 @@
     },
     {
       "course_id": "noc26_ce102",
-      "learners_enrolled": 268,
+      "learners_enrolled": 269,
       "status": "OK",
       "error": ""
     },
@@ -817,7 +817,7 @@
     },
     {
       "course_id": "noc26_ce104",
-      "learners_enrolled": 113,
+      "learners_enrolled": 119,
       "status": "OK",
       "error": ""
     },
@@ -829,31 +829,31 @@
     },
     {
       "course_id": "noc26_ce106",
-      "learners_enrolled": 376,
+      "learners_enrolled": 380,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce107",
-      "learners_enrolled": 693,
+      "learners_enrolled": 711,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce108",
-      "learners_enrolled": 240,
+      "learners_enrolled": 242,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce109",
-      "learners_enrolled": 410,
+      "learners_enrolled": 420,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce110",
-      "learners_enrolled": 522,
+      "learners_enrolled": 526,
       "status": "OK",
       "error": ""
     },
@@ -865,7 +865,7 @@
     },
     {
       "course_id": "noc26_ce112",
-      "learners_enrolled": 433,
+      "learners_enrolled": 441,
       "status": "OK",
       "error": ""
     },
@@ -883,13 +883,13 @@
     },
     {
       "course_id": "noc26_ce115",
-      "learners_enrolled": 710,
+      "learners_enrolled": 724,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce116",
-      "learners_enrolled": 351,
+      "learners_enrolled": 359,
       "status": "OK",
       "error": ""
     },
@@ -901,7 +901,7 @@
     },
     {
       "course_id": "noc26_ce118",
-      "learners_enrolled": 221,
+      "learners_enrolled": 224,
       "status": "OK",
       "error": ""
     },
@@ -913,25 +913,25 @@
     },
     {
       "course_id": "noc26_ce120",
-      "learners_enrolled": 185,
+      "learners_enrolled": 186,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce121",
-      "learners_enrolled": 807,
+      "learners_enrolled": 833,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce122",
-      "learners_enrolled": 1102,
+      "learners_enrolled": 1122,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce123",
-      "learners_enrolled": 682,
+      "learners_enrolled": 687,
       "status": "OK",
       "error": ""
     },
@@ -943,7 +943,7 @@
     },
     {
       "course_id": "noc26_ce125",
-      "learners_enrolled": 436,
+      "learners_enrolled": 439,
       "status": "OK",
       "error": ""
     },
@@ -961,7 +961,7 @@
     },
     {
       "course_id": "noc26_ce128",
-      "learners_enrolled": 280,
+      "learners_enrolled": 283,
       "status": "OK",
       "error": ""
     },
@@ -973,7 +973,7 @@
     },
     {
       "course_id": "noc26_ce130",
-      "learners_enrolled": 159,
+      "learners_enrolled": 160,
       "status": "OK",
       "error": ""
     },
@@ -985,7 +985,7 @@
     },
     {
       "course_id": "noc26_ce132",
-      "learners_enrolled": 829,
+      "learners_enrolled": 849,
       "status": "OK",
       "error": ""
     },
@@ -1021,7 +1021,7 @@
     },
     {
       "course_id": "noc26_ce138",
-      "learners_enrolled": 174,
+      "learners_enrolled": 177,
       "status": "OK",
       "error": ""
     },
@@ -1039,19 +1039,19 @@
     },
     {
       "course_id": "noc26_ce141",
-      "learners_enrolled": 99,
+      "learners_enrolled": 100,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce142",
-      "learners_enrolled": 2159,
+      "learners_enrolled": 2211,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce143",
-      "learners_enrolled": 211,
+      "learners_enrolled": 216,
       "status": "OK",
       "error": ""
     },
@@ -1069,7 +1069,7 @@
     },
     {
       "course_id": "noc26_ce146",
-      "learners_enrolled": 725,
+      "learners_enrolled": 735,
       "status": "OK",
       "error": ""
     },
@@ -1081,13 +1081,13 @@
     },
     {
       "course_id": "noc26_ce148",
-      "learners_enrolled": 770,
+      "learners_enrolled": 791,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce149",
-      "learners_enrolled": 874,
+      "learners_enrolled": 896,
       "status": "OK",
       "error": ""
     },
@@ -1123,7 +1123,7 @@
     },
     {
       "course_id": "noc26_ce155",
-      "learners_enrolled": 214,
+      "learners_enrolled": 219,
       "status": "OK",
       "error": ""
     },
@@ -1135,7 +1135,7 @@
     },
     {
       "course_id": "noc26_ce157",
-      "learners_enrolled": 670,
+      "learners_enrolled": 695,
       "status": "OK",
       "error": ""
     },
@@ -1147,13 +1147,13 @@
     },
     {
       "course_id": "noc26_ce159",
-      "learners_enrolled": 890,
+      "learners_enrolled": 927,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ce160",
-      "learners_enrolled": 596,
+      "learners_enrolled": 603,
       "status": "OK",
       "error": ""
     },
@@ -1207,7 +1207,7 @@
     },
     {
       "course_id": "noc26_ce85",
-      "learners_enrolled": 516,
+      "learners_enrolled": 525,
       "status": "OK",
       "error": ""
     },
@@ -1237,7 +1237,7 @@
     },
     {
       "course_id": "noc26_ce90",
-      "learners_enrolled": 126,
+      "learners_enrolled": 127,
       "status": "OK",
       "error": ""
     },
@@ -1261,7 +1261,7 @@
     },
     {
       "course_id": "noc26_ce94",
-      "learners_enrolled": 1024,
+      "learners_enrolled": 1048,
       "status": "OK",
       "error": ""
     },
@@ -1273,7 +1273,7 @@
     },
     {
       "course_id": "noc26_ce96",
-      "learners_enrolled": 1040,
+      "learners_enrolled": 1057,
       "status": "OK",
       "error": ""
     },
@@ -1285,7 +1285,7 @@
     },
     {
       "course_id": "noc26_ce98",
-      "learners_enrolled": 410,
+      "learners_enrolled": 415,
       "status": "OK",
       "error": ""
     },
@@ -1333,7 +1333,7 @@
     },
     {
       "course_id": "noc26_ch106",
-      "learners_enrolled": 166,
+      "learners_enrolled": 169,
       "status": "OK",
       "error": ""
     },
@@ -1369,13 +1369,13 @@
     },
     {
       "course_id": "noc26_ch52",
-      "learners_enrolled": 542,
+      "learners_enrolled": 548,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ch53",
-      "learners_enrolled": 266,
+      "learners_enrolled": 267,
       "status": "OK",
       "error": ""
     },
@@ -1417,7 +1417,7 @@
     },
     {
       "course_id": "noc26_ch60",
-      "learners_enrolled": 1420,
+      "learners_enrolled": 1453,
       "status": "OK",
       "error": ""
     },
@@ -1435,7 +1435,7 @@
     },
     {
       "course_id": "noc26_ch63",
-      "learners_enrolled": 105,
+      "learners_enrolled": 107,
       "status": "OK",
       "error": ""
     },
@@ -1453,7 +1453,7 @@
     },
     {
       "course_id": "noc26_ch66",
-      "learners_enrolled": 438,
+      "learners_enrolled": 445,
       "status": "OK",
       "error": ""
     },
@@ -1501,7 +1501,7 @@
     },
     {
       "course_id": "noc26_ch74",
-      "learners_enrolled": 1943,
+      "learners_enrolled": 2011,
       "status": "OK",
       "error": ""
     },
@@ -1513,7 +1513,7 @@
     },
     {
       "course_id": "noc26_ch76",
-      "learners_enrolled": 1054,
+      "learners_enrolled": 1068,
       "status": "OK",
       "error": ""
     },
@@ -1525,7 +1525,7 @@
     },
     {
       "course_id": "noc26_ch78",
-      "learners_enrolled": 4758,
+      "learners_enrolled": 4841,
       "status": "OK",
       "error": ""
     },
@@ -1537,13 +1537,13 @@
     },
     {
       "course_id": "noc26_ch80",
-      "learners_enrolled": 375,
+      "learners_enrolled": 381,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ch81",
-      "learners_enrolled": 1248,
+      "learners_enrolled": 1267,
       "status": "OK",
       "error": ""
     },
@@ -1579,7 +1579,7 @@
     },
     {
       "course_id": "noc26_ch87",
-      "learners_enrolled": 215,
+      "learners_enrolled": 216,
       "status": "OK",
       "error": ""
     },
@@ -1591,7 +1591,7 @@
     },
     {
       "course_id": "noc26_ch89",
-      "learners_enrolled": 1050,
+      "learners_enrolled": 1065,
       "status": "OK",
       "error": ""
     },
@@ -1627,13 +1627,13 @@
     },
     {
       "course_id": "noc26_ch95",
-      "learners_enrolled": 188,
+      "learners_enrolled": 196,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ch96",
-      "learners_enrolled": 178,
+      "learners_enrolled": 184,
       "status": "OK",
       "error": ""
     },
@@ -1645,13 +1645,13 @@
     },
     {
       "course_id": "noc26_ch98",
-      "learners_enrolled": 141,
+      "learners_enrolled": 144,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ch99",
-      "learners_enrolled": 266,
+      "learners_enrolled": 271,
       "status": "OK",
       "error": ""
     },
@@ -1663,25 +1663,25 @@
     },
     {
       "course_id": "noc26_cs101",
-      "learners_enrolled": 2131,
+      "learners_enrolled": 2164,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs102",
-      "learners_enrolled": 3642,
+      "learners_enrolled": 3696,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs103",
-      "learners_enrolled": 576,
+      "learners_enrolled": 595,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs104",
-      "learners_enrolled": 5124,
+      "learners_enrolled": 5220,
       "status": "OK",
       "error": ""
     },
@@ -1693,13 +1693,13 @@
     },
     {
       "course_id": "noc26_cs106",
-      "learners_enrolled": 4096,
+      "learners_enrolled": 4170,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs107",
-      "learners_enrolled": 30725,
+      "learners_enrolled": 31463,
       "status": "OK",
       "error": ""
     },
@@ -1711,13 +1711,13 @@
     },
     {
       "course_id": "noc26_cs109",
-      "learners_enrolled": 14775,
+      "learners_enrolled": 15137,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs110",
-      "learners_enrolled": 2714,
+      "learners_enrolled": 2770,
       "status": "OK",
       "error": ""
     },
@@ -1729,7 +1729,7 @@
     },
     {
       "course_id": "noc26_cs112",
-      "learners_enrolled": 10797,
+      "learners_enrolled": 10999,
       "status": "OK",
       "error": ""
     },
@@ -1747,7 +1747,7 @@
     },
     {
       "course_id": "noc26_cs115",
-      "learners_enrolled": 2580,
+      "learners_enrolled": 2688,
       "status": "OK",
       "error": ""
     },
@@ -1765,7 +1765,7 @@
     },
     {
       "course_id": "noc26_cs118",
-      "learners_enrolled": 2023,
+      "learners_enrolled": 2054,
       "status": "OK",
       "error": ""
     },
@@ -1783,7 +1783,7 @@
     },
     {
       "course_id": "noc26_cs121",
-      "learners_enrolled": 513,
+      "learners_enrolled": 519,
       "status": "OK",
       "error": ""
     },
@@ -1795,7 +1795,7 @@
     },
     {
       "course_id": "noc26_cs123",
-      "learners_enrolled": 8446,
+      "learners_enrolled": 8587,
       "status": "OK",
       "error": ""
     },
@@ -1807,7 +1807,7 @@
     },
     {
       "course_id": "noc26_cs125",
-      "learners_enrolled": 766,
+      "learners_enrolled": 778,
       "status": "OK",
       "error": ""
     },
@@ -1819,7 +1819,7 @@
     },
     {
       "course_id": "noc26_cs127",
-      "learners_enrolled": 494,
+      "learners_enrolled": 497,
       "status": "OK",
       "error": ""
     },
@@ -1831,13 +1831,13 @@
     },
     {
       "course_id": "noc26_cs129",
-      "learners_enrolled": 12466,
+      "learners_enrolled": 12879,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs130",
-      "learners_enrolled": 615,
+      "learners_enrolled": 621,
       "status": "OK",
       "error": ""
     },
@@ -1849,7 +1849,7 @@
     },
     {
       "course_id": "noc26_cs132",
-      "learners_enrolled": 5688,
+      "learners_enrolled": 5850,
       "status": "OK",
       "error": ""
     },
@@ -1879,7 +1879,7 @@
     },
     {
       "course_id": "noc26_cs137",
-      "learners_enrolled": 1844,
+      "learners_enrolled": 1877,
       "status": "OK",
       "error": ""
     },
@@ -1891,37 +1891,37 @@
     },
     {
       "course_id": "noc26_cs139",
-      "learners_enrolled": 2757,
+      "learners_enrolled": 2838,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs140",
-      "learners_enrolled": 1352,
+      "learners_enrolled": 1374,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs141",
-      "learners_enrolled": 16870,
+      "learners_enrolled": 17438,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs142",
-      "learners_enrolled": 307,
+      "learners_enrolled": 309,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs143",
-      "learners_enrolled": 1021,
+      "learners_enrolled": 1032,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs144",
-      "learners_enrolled": 18932,
+      "learners_enrolled": 19568,
       "status": "OK",
       "error": ""
     },
@@ -1951,7 +1951,7 @@
     },
     {
       "course_id": "noc26_cs149",
-      "learners_enrolled": 180,
+      "learners_enrolled": 186,
       "status": "OK",
       "error": ""
     },
@@ -1969,13 +1969,13 @@
     },
     {
       "course_id": "noc26_cs152",
-      "learners_enrolled": 4994,
+      "learners_enrolled": 5194,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs153",
-      "learners_enrolled": 30457,
+      "learners_enrolled": 31273,
       "status": "OK",
       "error": ""
     },
@@ -1993,19 +1993,19 @@
     },
     {
       "course_id": "noc26_cs156",
-      "learners_enrolled": 7087,
+      "learners_enrolled": 7278,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs157",
-      "learners_enrolled": 18964,
+      "learners_enrolled": 19482,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs158",
-      "learners_enrolled": 3937,
+      "learners_enrolled": 4060,
       "status": "OK",
       "error": ""
     },
@@ -2017,13 +2017,13 @@
     },
     {
       "course_id": "noc26_cs160",
-      "learners_enrolled": 17799,
+      "learners_enrolled": 18398,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs161",
-      "learners_enrolled": 47463,
+      "learners_enrolled": 49563,
       "status": "OK",
       "error": ""
     },
@@ -2035,7 +2035,7 @@
     },
     {
       "course_id": "noc26_cs163",
-      "learners_enrolled": 792,
+      "learners_enrolled": 883,
       "status": "OK",
       "error": ""
     },
@@ -2053,7 +2053,7 @@
     },
     {
       "course_id": "noc26_cs166",
-      "learners_enrolled": 5037,
+      "learners_enrolled": 5245,
       "status": "OK",
       "error": ""
     },
@@ -2077,13 +2077,13 @@
     },
     {
       "course_id": "noc26_cs170",
-      "learners_enrolled": 2761,
+      "learners_enrolled": 2864,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs171",
-      "learners_enrolled": 8490,
+      "learners_enrolled": 8710,
       "status": "OK",
       "error": ""
     },
@@ -2095,13 +2095,13 @@
     },
     {
       "course_id": "noc26_cs173",
-      "learners_enrolled": 801,
+      "learners_enrolled": 831,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs174",
-      "learners_enrolled": 3199,
+      "learners_enrolled": 3276,
       "status": "OK",
       "error": ""
     },
@@ -2125,19 +2125,19 @@
     },
     {
       "course_id": "noc26_cs178",
-      "learners_enrolled": 1516,
+      "learners_enrolled": 1545,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs179",
-      "learners_enrolled": 2475,
+      "learners_enrolled": 2502,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs180",
-      "learners_enrolled": 6390,
+      "learners_enrolled": 6592,
       "status": "OK",
       "error": ""
     },
@@ -2161,13 +2161,13 @@
     },
     {
       "course_id": "noc26_cs184",
-      "learners_enrolled": 735,
+      "learners_enrolled": 740,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs185",
-      "learners_enrolled": 2501,
+      "learners_enrolled": 2572,
       "status": "OK",
       "error": ""
     },
@@ -2179,13 +2179,13 @@
     },
     {
       "course_id": "noc26_cs187",
-      "learners_enrolled": 405,
+      "learners_enrolled": 415,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cs188",
-      "learners_enrolled": 6163,
+      "learners_enrolled": 6325,
       "status": "OK",
       "error": ""
     },
@@ -2197,7 +2197,7 @@
     },
     {
       "course_id": "noc26_cs90",
-      "learners_enrolled": 685,
+      "learners_enrolled": 692,
       "status": "OK",
       "error": ""
     },
@@ -2233,7 +2233,7 @@
     },
     {
       "course_id": "noc26_cs96",
-      "learners_enrolled": 1203,
+      "learners_enrolled": 1215,
       "status": "OK",
       "error": ""
     },
@@ -2257,19 +2257,19 @@
     },
     {
       "course_id": "noc26_cy41",
-      "learners_enrolled": 153,
+      "learners_enrolled": 154,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cy42",
-      "learners_enrolled": 333,
+      "learners_enrolled": 344,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cy43",
-      "learners_enrolled": 452,
+      "learners_enrolled": 492,
       "status": "OK",
       "error": ""
     },
@@ -2287,7 +2287,7 @@
     },
     {
       "course_id": "noc26_cy46",
-      "learners_enrolled": 195,
+      "learners_enrolled": 198,
       "status": "OK",
       "error": ""
     },
@@ -2299,7 +2299,7 @@
     },
     {
       "course_id": "noc26_cy48",
-      "learners_enrolled": 751,
+      "learners_enrolled": 756,
       "status": "OK",
       "error": ""
     },
@@ -2335,7 +2335,7 @@
     },
     {
       "course_id": "noc26_cy54",
-      "learners_enrolled": 188,
+      "learners_enrolled": 189,
       "status": "OK",
       "error": ""
     },
@@ -2359,7 +2359,7 @@
     },
     {
       "course_id": "noc26_cy58",
-      "learners_enrolled": 138,
+      "learners_enrolled": 141,
       "status": "OK",
       "error": ""
     },
@@ -2389,7 +2389,7 @@
     },
     {
       "course_id": "noc26_cy63",
-      "learners_enrolled": 150,
+      "learners_enrolled": 152,
       "status": "OK",
       "error": ""
     },
@@ -2407,7 +2407,7 @@
     },
     {
       "course_id": "noc26_cy66",
-      "learners_enrolled": 314,
+      "learners_enrolled": 317,
       "status": "OK",
       "error": ""
     },
@@ -2419,13 +2419,13 @@
     },
     {
       "course_id": "noc26_cy68",
-      "learners_enrolled": 414,
+      "learners_enrolled": 421,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_cy69",
-      "learners_enrolled": 566,
+      "learners_enrolled": 570,
       "status": "OK",
       "error": ""
     },
@@ -2455,7 +2455,7 @@
     },
     {
       "course_id": "noc26_cy74",
-      "learners_enrolled": 296,
+      "learners_enrolled": 297,
       "status": "OK",
       "error": ""
     },
@@ -2467,7 +2467,7 @@
     },
     {
       "course_id": "noc26_cy76",
-      "learners_enrolled": 265,
+      "learners_enrolled": 272,
       "status": "OK",
       "error": ""
     },
@@ -2479,13 +2479,13 @@
     },
     {
       "course_id": "noc26_de20",
-      "learners_enrolled": 504,
+      "learners_enrolled": 528,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_de21",
-      "learners_enrolled": 790,
+      "learners_enrolled": 823,
       "status": "OK",
       "error": ""
     },
@@ -2497,7 +2497,7 @@
     },
     {
       "course_id": "noc26_de23",
-      "learners_enrolled": 1384,
+      "learners_enrolled": 1414,
       "status": "OK",
       "error": ""
     },
@@ -2521,7 +2521,7 @@
     },
     {
       "course_id": "noc26_de27",
-      "learners_enrolled": 1184,
+      "learners_enrolled": 1198,
       "status": "OK",
       "error": ""
     },
@@ -2539,7 +2539,7 @@
     },
     {
       "course_id": "noc26_de30",
-      "learners_enrolled": 391,
+      "learners_enrolled": 404,
       "status": "OK",
       "error": ""
     },
@@ -2563,7 +2563,7 @@
     },
     {
       "course_id": "noc26_ec13",
-      "learners_enrolled": 328,
+      "learners_enrolled": 332,
       "status": "OK",
       "error": ""
     },
@@ -2593,19 +2593,19 @@
     },
     {
       "course_id": "noc26_ec18",
-      "learners_enrolled": 859,
+      "learners_enrolled": 875,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ec19",
-      "learners_enrolled": 112,
+      "learners_enrolled": 113,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ec20",
-      "learners_enrolled": 1207,
+      "learners_enrolled": 1260,
       "status": "OK",
       "error": ""
     },
@@ -2617,7 +2617,7 @@
     },
     {
       "course_id": "noc26_ec22",
-      "learners_enrolled": 393,
+      "learners_enrolled": 394,
       "status": "OK",
       "error": ""
     },
@@ -2635,7 +2635,7 @@
     },
     {
       "course_id": "noc26_ee101",
-      "learners_enrolled": 1460,
+      "learners_enrolled": 1537,
       "status": "OK",
       "error": ""
     },
@@ -2647,13 +2647,13 @@
     },
     {
       "course_id": "noc26_ee103",
-      "learners_enrolled": 4065,
+      "learners_enrolled": 4168,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee104",
-      "learners_enrolled": 550,
+      "learners_enrolled": 563,
       "status": "OK",
       "error": ""
     },
@@ -2665,7 +2665,7 @@
     },
     {
       "course_id": "noc26_ee106",
-      "learners_enrolled": 444,
+      "learners_enrolled": 456,
       "status": "OK",
       "error": ""
     },
@@ -2677,7 +2677,7 @@
     },
     {
       "course_id": "noc26_ee108",
-      "learners_enrolled": 1109,
+      "learners_enrolled": 1158,
       "status": "OK",
       "error": ""
     },
@@ -2689,7 +2689,7 @@
     },
     {
       "course_id": "noc26_ee110",
-      "learners_enrolled": 994,
+      "learners_enrolled": 998,
       "status": "OK",
       "error": ""
     },
@@ -2701,7 +2701,7 @@
     },
     {
       "course_id": "noc26_ee112",
-      "learners_enrolled": 455,
+      "learners_enrolled": 465,
       "status": "OK",
       "error": ""
     },
@@ -2725,7 +2725,7 @@
     },
     {
       "course_id": "noc26_ee116",
-      "learners_enrolled": 720,
+      "learners_enrolled": 855,
       "status": "OK",
       "error": ""
     },
@@ -2737,7 +2737,7 @@
     },
     {
       "course_id": "noc26_ee118",
-      "learners_enrolled": 969,
+      "learners_enrolled": 983,
       "status": "OK",
       "error": ""
     },
@@ -2797,19 +2797,19 @@
     },
     {
       "course_id": "noc26_ee128",
-      "learners_enrolled": 130,
+      "learners_enrolled": 131,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee129",
-      "learners_enrolled": 385,
+      "learners_enrolled": 394,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee130",
-      "learners_enrolled": 578,
+      "learners_enrolled": 587,
       "status": "OK",
       "error": ""
     },
@@ -2845,7 +2845,7 @@
     },
     {
       "course_id": "noc26_ee137",
-      "learners_enrolled": 908,
+      "learners_enrolled": 927,
       "status": "OK",
       "error": ""
     },
@@ -2893,7 +2893,7 @@
     },
     {
       "course_id": "noc26_ee145",
-      "learners_enrolled": 106,
+      "learners_enrolled": 108,
       "status": "OK",
       "error": ""
     },
@@ -2929,25 +2929,25 @@
     },
     {
       "course_id": "noc26_ee151",
-      "learners_enrolled": 403,
+      "learners_enrolled": 413,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee152",
-      "learners_enrolled": 804,
+      "learners_enrolled": 820,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee153",
-      "learners_enrolled": 774,
+      "learners_enrolled": 783,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee154",
-      "learners_enrolled": 3319,
+      "learners_enrolled": 3368,
       "status": "OK",
       "error": ""
     },
@@ -3001,7 +3001,7 @@
     },
     {
       "course_id": "noc26_ee163",
-      "learners_enrolled": 322,
+      "learners_enrolled": 326,
       "status": "OK",
       "error": ""
     },
@@ -3019,13 +3019,13 @@
     },
     {
       "course_id": "noc26_ee166",
-      "learners_enrolled": 752,
+      "learners_enrolled": 764,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee167",
-      "learners_enrolled": 813,
+      "learners_enrolled": 831,
       "status": "OK",
       "error": ""
     },
@@ -3049,25 +3049,25 @@
     },
     {
       "course_id": "noc26_ee171",
-      "learners_enrolled": 800,
+      "learners_enrolled": 839,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee172",
-      "learners_enrolled": 534,
+      "learners_enrolled": 553,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee173",
-      "learners_enrolled": 634,
+      "learners_enrolled": 648,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee174",
-      "learners_enrolled": 1222,
+      "learners_enrolled": 1246,
       "status": "OK",
       "error": ""
     },
@@ -3079,7 +3079,7 @@
     },
     {
       "course_id": "noc26_ee176",
-      "learners_enrolled": 1047,
+      "learners_enrolled": 1091,
       "status": "OK",
       "error": ""
     },
@@ -3097,13 +3097,13 @@
     },
     {
       "course_id": "noc26_ee179",
-      "learners_enrolled": 215,
+      "learners_enrolled": 217,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee180",
-      "learners_enrolled": 871,
+      "learners_enrolled": 899,
       "status": "OK",
       "error": ""
     },
@@ -3121,7 +3121,7 @@
     },
     {
       "course_id": "noc26_ee183",
-      "learners_enrolled": 197,
+      "learners_enrolled": 200,
       "status": "OK",
       "error": ""
     },
@@ -3187,7 +3187,7 @@
     },
     {
       "course_id": "noc26_ee194",
-      "learners_enrolled": 597,
+      "learners_enrolled": 616,
       "status": "OK",
       "error": ""
     },
@@ -3199,7 +3199,7 @@
     },
     {
       "course_id": "noc26_ee197",
-      "learners_enrolled": 523,
+      "learners_enrolled": 525,
       "status": "OK",
       "error": ""
     },
@@ -3211,7 +3211,7 @@
     },
     {
       "course_id": "noc26_ee199",
-      "learners_enrolled": 72,
+      "learners_enrolled": 73,
       "status": "OK",
       "error": ""
     },
@@ -3223,13 +3223,13 @@
     },
     {
       "course_id": "noc26_ee201",
-      "learners_enrolled": 169,
+      "learners_enrolled": 172,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee202",
-      "learners_enrolled": 488,
+      "learners_enrolled": 497,
       "status": "OK",
       "error": ""
     },
@@ -3253,13 +3253,13 @@
     },
     {
       "course_id": "noc26_ee96",
-      "learners_enrolled": 3374,
+      "learners_enrolled": 3434,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ee97",
-      "learners_enrolled": 1289,
+      "learners_enrolled": 1325,
       "status": "OK",
       "error": ""
     },
@@ -3283,19 +3283,19 @@
     },
     {
       "course_id": "noc26_ge101",
-      "learners_enrolled": 320,
+      "learners_enrolled": 321,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge102",
-      "learners_enrolled": 2695,
+      "learners_enrolled": 2755,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge103",
-      "learners_enrolled": 342,
+      "learners_enrolled": 345,
       "status": "OK",
       "error": ""
     },
@@ -3307,13 +3307,13 @@
     },
     {
       "course_id": "noc26_ge105",
-      "learners_enrolled": 2250,
+      "learners_enrolled": 2288,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge106",
-      "learners_enrolled": 4268,
+      "learners_enrolled": 4528,
       "status": "OK",
       "error": ""
     },
@@ -3325,19 +3325,19 @@
     },
     {
       "course_id": "noc26_ge48",
-      "learners_enrolled": 230,
+      "learners_enrolled": 231,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge49",
-      "learners_enrolled": 401,
+      "learners_enrolled": 405,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge50",
-      "learners_enrolled": 962,
+      "learners_enrolled": 974,
       "status": "OK",
       "error": ""
     },
@@ -3409,19 +3409,19 @@
     },
     {
       "course_id": "noc26_ge67",
-      "learners_enrolled": 1352,
+      "learners_enrolled": 1377,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge68",
-      "learners_enrolled": 563,
+      "learners_enrolled": 568,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge69",
-      "learners_enrolled": 2195,
+      "learners_enrolled": 2213,
       "status": "OK",
       "error": ""
     },
@@ -3433,13 +3433,13 @@
     },
     {
       "course_id": "noc26_ge71",
-      "learners_enrolled": 75,
+      "learners_enrolled": 76,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge72",
-      "learners_enrolled": 3171,
+      "learners_enrolled": 3250,
       "status": "OK",
       "error": ""
     },
@@ -3451,13 +3451,13 @@
     },
     {
       "course_id": "noc26_ge74",
-      "learners_enrolled": 138,
+      "learners_enrolled": 140,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge75",
-      "learners_enrolled": 1326,
+      "learners_enrolled": 1366,
       "status": "OK",
       "error": ""
     },
@@ -3469,7 +3469,7 @@
     },
     {
       "course_id": "noc26_ge77",
-      "learners_enrolled": 288,
+      "learners_enrolled": 290,
       "status": "OK",
       "error": ""
     },
@@ -3481,19 +3481,19 @@
     },
     {
       "course_id": "noc26_ge79",
-      "learners_enrolled": 9570,
+      "learners_enrolled": 9851,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge80",
-      "learners_enrolled": 453,
+      "learners_enrolled": 466,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge81",
-      "learners_enrolled": 981,
+      "learners_enrolled": 991,
       "status": "OK",
       "error": ""
     },
@@ -3505,7 +3505,7 @@
     },
     {
       "course_id": "noc26_ge83",
-      "learners_enrolled": 3779,
+      "learners_enrolled": 3896,
       "status": "OK",
       "error": ""
     },
@@ -3541,7 +3541,7 @@
     },
     {
       "course_id": "noc26_ge89",
-      "learners_enrolled": 418,
+      "learners_enrolled": 423,
       "status": "OK",
       "error": ""
     },
@@ -3577,7 +3577,7 @@
     },
     {
       "course_id": "noc26_ge95",
-      "learners_enrolled": 232,
+      "learners_enrolled": 233,
       "status": "OK",
       "error": ""
     },
@@ -3589,19 +3589,19 @@
     },
     {
       "course_id": "noc26_ge97",
-      "learners_enrolled": 1303,
+      "learners_enrolled": 1318,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge98",
-      "learners_enrolled": 2359,
+      "learners_enrolled": 2428,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ge99",
-      "learners_enrolled": 900,
+      "learners_enrolled": 914,
       "status": "OK",
       "error": ""
     },
@@ -3661,7 +3661,7 @@
     },
     {
       "course_id": "noc26_hs136",
-      "learners_enrolled": 322,
+      "learners_enrolled": 326,
       "status": "OK",
       "error": ""
     },
@@ -3679,7 +3679,7 @@
     },
     {
       "course_id": "noc26_hs139",
-      "learners_enrolled": 2579,
+      "learners_enrolled": 2648,
       "status": "OK",
       "error": ""
     },
@@ -3691,7 +3691,7 @@
     },
     {
       "course_id": "noc26_hs141",
-      "learners_enrolled": 131,
+      "learners_enrolled": 135,
       "status": "OK",
       "error": ""
     },
@@ -3739,7 +3739,7 @@
     },
     {
       "course_id": "noc26_hs149",
-      "learners_enrolled": 1866,
+      "learners_enrolled": 1919,
       "status": "OK",
       "error": ""
     },
@@ -3751,7 +3751,7 @@
     },
     {
       "course_id": "noc26_hs151",
-      "learners_enrolled": 285,
+      "learners_enrolled": 293,
       "status": "OK",
       "error": ""
     },
@@ -3763,7 +3763,7 @@
     },
     {
       "course_id": "noc26_hs153",
-      "learners_enrolled": 760,
+      "learners_enrolled": 768,
       "status": "OK",
       "error": ""
     },
@@ -3817,7 +3817,7 @@
     },
     {
       "course_id": "noc26_hs162",
-      "learners_enrolled": 78,
+      "learners_enrolled": 79,
       "status": "OK",
       "error": ""
     },
@@ -3829,7 +3829,7 @@
     },
     {
       "course_id": "noc26_hs164",
-      "learners_enrolled": 1473,
+      "learners_enrolled": 1565,
       "status": "OK",
       "error": ""
     },
@@ -3841,7 +3841,7 @@
     },
     {
       "course_id": "noc26_hs166",
-      "learners_enrolled": 2850,
+      "learners_enrolled": 2906,
       "status": "OK",
       "error": ""
     },
@@ -3859,7 +3859,7 @@
     },
     {
       "course_id": "noc26_hs169",
-      "learners_enrolled": 2104,
+      "learners_enrolled": 2162,
       "status": "OK",
       "error": ""
     },
@@ -3883,7 +3883,7 @@
     },
     {
       "course_id": "noc26_hs173",
-      "learners_enrolled": 525,
+      "learners_enrolled": 531,
       "status": "OK",
       "error": ""
     },
@@ -3895,7 +3895,7 @@
     },
     {
       "course_id": "noc26_hs175",
-      "learners_enrolled": 780,
+      "learners_enrolled": 786,
       "status": "OK",
       "error": ""
     },
@@ -3907,7 +3907,7 @@
     },
     {
       "course_id": "noc26_hs177",
-      "learners_enrolled": 161,
+      "learners_enrolled": 171,
       "status": "OK",
       "error": ""
     },
@@ -3937,13 +3937,13 @@
     },
     {
       "course_id": "noc26_hs182",
-      "learners_enrolled": 499,
+      "learners_enrolled": 500,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs183",
-      "learners_enrolled": 661,
+      "learners_enrolled": 669,
       "status": "OK",
       "error": ""
     },
@@ -3985,13 +3985,13 @@
     },
     {
       "course_id": "noc26_hs190",
-      "learners_enrolled": 260,
+      "learners_enrolled": 261,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs191",
-      "learners_enrolled": 265,
+      "learners_enrolled": 272,
       "status": "OK",
       "error": ""
     },
@@ -4003,7 +4003,7 @@
     },
     {
       "course_id": "noc26_hs193",
-      "learners_enrolled": 10876,
+      "learners_enrolled": 11174,
       "status": "OK",
       "error": ""
     },
@@ -4033,7 +4033,7 @@
     },
     {
       "course_id": "noc26_hs198",
-      "learners_enrolled": 2430,
+      "learners_enrolled": 2467,
       "status": "OK",
       "error": ""
     },
@@ -4045,7 +4045,7 @@
     },
     {
       "course_id": "noc26_hs200",
-      "learners_enrolled": 1272,
+      "learners_enrolled": 1285,
       "status": "OK",
       "error": ""
     },
@@ -4057,7 +4057,7 @@
     },
     {
       "course_id": "noc26_hs202",
-      "learners_enrolled": 99,
+      "learners_enrolled": 101,
       "status": "OK",
       "error": ""
     },
@@ -4087,7 +4087,7 @@
     },
     {
       "course_id": "noc26_hs208",
-      "learners_enrolled": 4775,
+      "learners_enrolled": 4858,
       "status": "OK",
       "error": ""
     },
@@ -4099,13 +4099,13 @@
     },
     {
       "course_id": "noc26_hs210",
-      "learners_enrolled": 3573,
+      "learners_enrolled": 3821,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs211",
-      "learners_enrolled": 4549,
+      "learners_enrolled": 4679,
       "status": "OK",
       "error": ""
     },
@@ -4117,7 +4117,7 @@
     },
     {
       "course_id": "noc26_hs213",
-      "learners_enrolled": 443,
+      "learners_enrolled": 452,
       "status": "OK",
       "error": ""
     },
@@ -4129,7 +4129,7 @@
     },
     {
       "course_id": "noc26_hs215",
-      "learners_enrolled": 396,
+      "learners_enrolled": 405,
       "status": "OK",
       "error": ""
     },
@@ -4141,13 +4141,13 @@
     },
     {
       "course_id": "noc26_hs217",
-      "learners_enrolled": 226,
+      "learners_enrolled": 227,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs218",
-      "learners_enrolled": 293,
+      "learners_enrolled": 303,
       "status": "OK",
       "error": ""
     },
@@ -4165,13 +4165,13 @@
     },
     {
       "course_id": "noc26_hs221",
-      "learners_enrolled": 227,
+      "learners_enrolled": 228,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs222",
-      "learners_enrolled": 634,
+      "learners_enrolled": 655,
       "status": "OK",
       "error": ""
     },
@@ -4183,13 +4183,13 @@
     },
     {
       "course_id": "noc26_hs224",
-      "learners_enrolled": 2501,
+      "learners_enrolled": 2609,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs225",
-      "learners_enrolled": 647,
+      "learners_enrolled": 659,
       "status": "OK",
       "error": ""
     },
@@ -4201,19 +4201,19 @@
     },
     {
       "course_id": "noc26_hs228",
-      "learners_enrolled": 210,
+      "learners_enrolled": 212,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs229",
-      "learners_enrolled": 105,
+      "learners_enrolled": 107,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs230",
-      "learners_enrolled": 357,
+      "learners_enrolled": 361,
       "status": "OK",
       "error": ""
     },
@@ -4243,19 +4243,19 @@
     },
     {
       "course_id": "noc26_hs235",
-      "learners_enrolled": 521,
+      "learners_enrolled": 541,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs236",
-      "learners_enrolled": 1670,
+      "learners_enrolled": 1687,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs237",
-      "learners_enrolled": 518,
+      "learners_enrolled": 528,
       "status": "OK",
       "error": ""
     },
@@ -4267,7 +4267,7 @@
     },
     {
       "course_id": "noc26_hs239",
-      "learners_enrolled": 125,
+      "learners_enrolled": 129,
       "status": "OK",
       "error": ""
     },
@@ -4279,7 +4279,7 @@
     },
     {
       "course_id": "noc26_hs241",
-      "learners_enrolled": 1548,
+      "learners_enrolled": 1580,
       "status": "OK",
       "error": ""
     },
@@ -4315,7 +4315,7 @@
     },
     {
       "course_id": "noc26_hs247",
-      "learners_enrolled": 1400,
+      "learners_enrolled": 1428,
       "status": "OK",
       "error": ""
     },
@@ -4327,7 +4327,7 @@
     },
     {
       "course_id": "noc26_hs249",
-      "learners_enrolled": 10885,
+      "learners_enrolled": 11131,
       "status": "OK",
       "error": ""
     },
@@ -4339,7 +4339,7 @@
     },
     {
       "course_id": "noc26_hs251",
-      "learners_enrolled": 235,
+      "learners_enrolled": 239,
       "status": "OK",
       "error": ""
     },
@@ -4351,13 +4351,13 @@
     },
     {
       "course_id": "noc26_hs253",
-      "learners_enrolled": 529,
+      "learners_enrolled": 535,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_hs254",
-      "learners_enrolled": 689,
+      "learners_enrolled": 712,
       "status": "OK",
       "error": ""
     },
@@ -4375,7 +4375,7 @@
     },
     {
       "course_id": "noc26_lw13",
-      "learners_enrolled": 333,
+      "learners_enrolled": 335,
       "status": "OK",
       "error": ""
     },
@@ -4387,7 +4387,7 @@
     },
     {
       "course_id": "noc26_lw15",
-      "learners_enrolled": 342,
+      "learners_enrolled": 354,
       "status": "OK",
       "error": ""
     },
@@ -4417,19 +4417,19 @@
     },
     {
       "course_id": "noc26_lw20",
-      "learners_enrolled": 1255,
+      "learners_enrolled": 1272,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_lw21",
-      "learners_enrolled": 808,
+      "learners_enrolled": 829,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_lw22",
-      "learners_enrolled": 2088,
+      "learners_enrolled": 2103,
       "status": "OK",
       "error": ""
     },
@@ -4441,7 +4441,7 @@
     },
     {
       "course_id": "noc26_lw24",
-      "learners_enrolled": 947,
+      "learners_enrolled": 962,
       "status": "OK",
       "error": ""
     },
@@ -4453,25 +4453,25 @@
     },
     {
       "course_id": "noc26_lw26",
-      "learners_enrolled": 3029,
+      "learners_enrolled": 3110,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_lw27",
-      "learners_enrolled": 471,
+      "learners_enrolled": 474,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_lw28",
-      "learners_enrolled": 793,
+      "learners_enrolled": 824,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ma100",
-      "learners_enrolled": 760,
+      "learners_enrolled": 814,
       "status": "OK",
       "error": ""
     },
@@ -4495,7 +4495,7 @@
     },
     {
       "course_id": "noc26_ma104",
-      "learners_enrolled": 193,
+      "learners_enrolled": 194,
       "status": "OK",
       "error": ""
     },
@@ -4585,7 +4585,7 @@
     },
     {
       "course_id": "noc26_ma119",
-      "learners_enrolled": 1091,
+      "learners_enrolled": 1107,
       "status": "OK",
       "error": ""
     },
@@ -4615,7 +4615,7 @@
     },
     {
       "course_id": "noc26_ma124",
-      "learners_enrolled": 124,
+      "learners_enrolled": 125,
       "status": "OK",
       "error": ""
     },
@@ -4627,13 +4627,13 @@
     },
     {
       "course_id": "noc26_ma126",
-      "learners_enrolled": 426,
+      "learners_enrolled": 437,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ma127",
-      "learners_enrolled": 179,
+      "learners_enrolled": 181,
       "status": "OK",
       "error": ""
     },
@@ -4675,13 +4675,13 @@
     },
     {
       "course_id": "noc26_ma134",
-      "learners_enrolled": 148,
+      "learners_enrolled": 151,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ma135",
-      "learners_enrolled": 161,
+      "learners_enrolled": 163,
       "status": "OK",
       "error": ""
     },
@@ -4693,7 +4693,7 @@
     },
     {
       "course_id": "noc26_ma137",
-      "learners_enrolled": 225,
+      "learners_enrolled": 229,
       "status": "OK",
       "error": ""
     },
@@ -4717,7 +4717,7 @@
     },
     {
       "course_id": "noc26_ma141",
-      "learners_enrolled": 293,
+      "learners_enrolled": 301,
       "status": "OK",
       "error": ""
     },
@@ -4783,7 +4783,7 @@
     },
     {
       "course_id": "noc26_ma78",
-      "learners_enrolled": 494,
+      "learners_enrolled": 500,
       "status": "OK",
       "error": ""
     },
@@ -4807,13 +4807,13 @@
     },
     {
       "course_id": "noc26_ma83",
-      "learners_enrolled": 572,
+      "learners_enrolled": 614,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ma84",
-      "learners_enrolled": 766,
+      "learners_enrolled": 775,
       "status": "OK",
       "error": ""
     },
@@ -4825,7 +4825,7 @@
     },
     {
       "course_id": "noc26_ma86",
-      "learners_enrolled": 277,
+      "learners_enrolled": 279,
       "status": "OK",
       "error": ""
     },
@@ -4849,7 +4849,7 @@
     },
     {
       "course_id": "noc26_ma90",
-      "learners_enrolled": 354,
+      "learners_enrolled": 360,
       "status": "OK",
       "error": ""
     },
@@ -4879,7 +4879,7 @@
     },
     {
       "course_id": "noc26_ma95",
-      "learners_enrolled": 505,
+      "learners_enrolled": 518,
       "status": "OK",
       "error": ""
     },
@@ -4957,31 +4957,31 @@
     },
     {
       "course_id": "noc26_me112",
-      "learners_enrolled": 2676,
+      "learners_enrolled": 2764,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me113",
-      "learners_enrolled": 358,
+      "learners_enrolled": 362,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me114",
-      "learners_enrolled": 340,
+      "learners_enrolled": 350,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me115",
-      "learners_enrolled": 235,
+      "learners_enrolled": 236,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me116",
-      "learners_enrolled": 373,
+      "learners_enrolled": 386,
       "status": "OK",
       "error": ""
     },
@@ -4993,19 +4993,19 @@
     },
     {
       "course_id": "noc26_me118",
-      "learners_enrolled": 1436,
+      "learners_enrolled": 1459,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me119",
-      "learners_enrolled": 239,
+      "learners_enrolled": 244,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me120",
-      "learners_enrolled": 318,
+      "learners_enrolled": 321,
       "status": "OK",
       "error": ""
     },
@@ -5029,13 +5029,13 @@
     },
     {
       "course_id": "noc26_me124",
-      "learners_enrolled": 755,
+      "learners_enrolled": 763,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me125",
-      "learners_enrolled": 234,
+      "learners_enrolled": 237,
       "status": "OK",
       "error": ""
     },
@@ -5053,7 +5053,7 @@
     },
     {
       "course_id": "noc26_me128",
-      "learners_enrolled": 366,
+      "learners_enrolled": 427,
       "status": "OK",
       "error": ""
     },
@@ -5083,7 +5083,7 @@
     },
     {
       "course_id": "noc26_me133",
-      "learners_enrolled": 776,
+      "learners_enrolled": 784,
       "status": "OK",
       "error": ""
     },
@@ -5095,7 +5095,7 @@
     },
     {
       "course_id": "noc26_me135",
-      "learners_enrolled": 319,
+      "learners_enrolled": 321,
       "status": "OK",
       "error": ""
     },
@@ -5131,19 +5131,19 @@
     },
     {
       "course_id": "noc26_me141",
-      "learners_enrolled": 3515,
+      "learners_enrolled": 3728,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me142",
-      "learners_enrolled": 634,
+      "learners_enrolled": 639,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me143",
-      "learners_enrolled": 194,
+      "learners_enrolled": 197,
       "status": "OK",
       "error": ""
     },
@@ -5155,7 +5155,7 @@
     },
     {
       "course_id": "noc26_me145",
-      "learners_enrolled": 206,
+      "learners_enrolled": 207,
       "status": "OK",
       "error": ""
     },
@@ -5209,7 +5209,7 @@
     },
     {
       "course_id": "noc26_me154",
-      "learners_enrolled": 1127,
+      "learners_enrolled": 1195,
       "status": "OK",
       "error": ""
     },
@@ -5227,13 +5227,13 @@
     },
     {
       "course_id": "noc26_me157",
-      "learners_enrolled": 317,
+      "learners_enrolled": 327,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me158",
-      "learners_enrolled": 909,
+      "learners_enrolled": 921,
       "status": "OK",
       "error": ""
     },
@@ -5245,7 +5245,7 @@
     },
     {
       "course_id": "noc26_me160",
-      "learners_enrolled": 516,
+      "learners_enrolled": 523,
       "status": "OK",
       "error": ""
     },
@@ -5257,7 +5257,7 @@
     },
     {
       "course_id": "noc26_me162",
-      "learners_enrolled": 390,
+      "learners_enrolled": 392,
       "status": "OK",
       "error": ""
     },
@@ -5269,13 +5269,13 @@
     },
     {
       "course_id": "noc26_me164",
-      "learners_enrolled": 580,
+      "learners_enrolled": 593,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me165",
-      "learners_enrolled": 837,
+      "learners_enrolled": 858,
       "status": "OK",
       "error": ""
     },
@@ -5287,7 +5287,7 @@
     },
     {
       "course_id": "noc26_me167",
-      "learners_enrolled": 772,
+      "learners_enrolled": 787,
       "status": "OK",
       "error": ""
     },
@@ -5305,25 +5305,25 @@
     },
     {
       "course_id": "noc26_me170",
-      "learners_enrolled": 356,
+      "learners_enrolled": 359,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me171",
-      "learners_enrolled": 533,
+      "learners_enrolled": 538,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me172",
-      "learners_enrolled": 172,
+      "learners_enrolled": 173,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_me173",
-      "learners_enrolled": 297,
+      "learners_enrolled": 299,
       "status": "OK",
       "error": ""
     },
@@ -5335,7 +5335,7 @@
     },
     {
       "course_id": "noc26_me175",
-      "learners_enrolled": 644,
+      "learners_enrolled": 653,
       "status": "OK",
       "error": ""
     },
@@ -5347,7 +5347,7 @@
     },
     {
       "course_id": "noc26_me177",
-      "learners_enrolled": 191,
+      "learners_enrolled": 195,
       "status": "OK",
       "error": ""
     },
@@ -5365,7 +5365,7 @@
     },
     {
       "course_id": "noc26_me180",
-      "learners_enrolled": 193,
+      "learners_enrolled": 194,
       "status": "OK",
       "error": ""
     },
@@ -5377,7 +5377,7 @@
     },
     {
       "course_id": "noc26_me182",
-      "learners_enrolled": 234,
+      "learners_enrolled": 236,
       "status": "OK",
       "error": ""
     },
@@ -5401,7 +5401,7 @@
     },
     {
       "course_id": "noc26_me186",
-      "learners_enrolled": 85,
+      "learners_enrolled": 86,
       "status": "OK",
       "error": ""
     },
@@ -5437,7 +5437,7 @@
     },
     {
       "course_id": "noc26_me192",
-      "learners_enrolled": 464,
+      "learners_enrolled": 468,
       "status": "OK",
       "error": ""
     },
@@ -5473,7 +5473,7 @@
     },
     {
       "course_id": "noc26_me198",
-      "learners_enrolled": 321,
+      "learners_enrolled": 329,
       "status": "OK",
       "error": ""
     },
@@ -5491,7 +5491,7 @@
     },
     {
       "course_id": "noc26_me201",
-      "learners_enrolled": 281,
+      "learners_enrolled": 282,
       "status": "OK",
       "error": ""
     },
@@ -5509,7 +5509,7 @@
     },
     {
       "course_id": "noc26_me204",
-      "learners_enrolled": 453,
+      "learners_enrolled": 456,
       "status": "OK",
       "error": ""
     },
@@ -5527,19 +5527,19 @@
     },
     {
       "course_id": "noc26_mg102",
-      "learners_enrolled": 690,
+      "learners_enrolled": 694,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg103",
-      "learners_enrolled": 908,
+      "learners_enrolled": 929,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg104",
-      "learners_enrolled": 505,
+      "learners_enrolled": 515,
       "status": "OK",
       "error": ""
     },
@@ -5557,13 +5557,13 @@
     },
     {
       "course_id": "noc26_mg107",
-      "learners_enrolled": 1690,
+      "learners_enrolled": 1708,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg108",
-      "learners_enrolled": 992,
+      "learners_enrolled": 1018,
       "status": "OK",
       "error": ""
     },
@@ -5587,7 +5587,7 @@
     },
     {
       "course_id": "noc26_mg112",
-      "learners_enrolled": 2173,
+      "learners_enrolled": 2210,
       "status": "OK",
       "error": ""
     },
@@ -5605,7 +5605,7 @@
     },
     {
       "course_id": "noc26_mg115",
-      "learners_enrolled": 466,
+      "learners_enrolled": 476,
       "status": "OK",
       "error": ""
     },
@@ -5629,25 +5629,25 @@
     },
     {
       "course_id": "noc26_mg119",
-      "learners_enrolled": 597,
+      "learners_enrolled": 615,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg120",
-      "learners_enrolled": 711,
+      "learners_enrolled": 721,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg121",
-      "learners_enrolled": 1055,
+      "learners_enrolled": 1069,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg122",
-      "learners_enrolled": 4708,
+      "learners_enrolled": 4798,
       "status": "OK",
       "error": ""
     },
@@ -5677,7 +5677,7 @@
     },
     {
       "course_id": "noc26_mg127",
-      "learners_enrolled": 620,
+      "learners_enrolled": 632,
       "status": "OK",
       "error": ""
     },
@@ -5695,7 +5695,7 @@
     },
     {
       "course_id": "noc26_mg130",
-      "learners_enrolled": 537,
+      "learners_enrolled": 552,
       "status": "OK",
       "error": ""
     },
@@ -5719,13 +5719,13 @@
     },
     {
       "course_id": "noc26_mg134",
-      "learners_enrolled": 5855,
+      "learners_enrolled": 5969,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg135",
-      "learners_enrolled": 3215,
+      "learners_enrolled": 3248,
       "status": "OK",
       "error": ""
     },
@@ -5737,13 +5737,13 @@
     },
     {
       "course_id": "noc26_mg137",
-      "learners_enrolled": 968,
+      "learners_enrolled": 978,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg138",
-      "learners_enrolled": 641,
+      "learners_enrolled": 653,
       "status": "OK",
       "error": ""
     },
@@ -5755,7 +5755,7 @@
     },
     {
       "course_id": "noc26_mg142",
-      "learners_enrolled": 3198,
+      "learners_enrolled": 3240,
       "status": "OK",
       "error": ""
     },
@@ -5767,7 +5767,7 @@
     },
     {
       "course_id": "noc26_mg144",
-      "learners_enrolled": 472,
+      "learners_enrolled": 497,
       "status": "OK",
       "error": ""
     },
@@ -5797,7 +5797,7 @@
     },
     {
       "course_id": "noc26_mg149",
-      "learners_enrolled": 477,
+      "learners_enrolled": 486,
       "status": "OK",
       "error": ""
     },
@@ -5821,25 +5821,25 @@
     },
     {
       "course_id": "noc26_mg153",
-      "learners_enrolled": 2350,
+      "learners_enrolled": 2422,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg154",
-      "learners_enrolled": 4690,
+      "learners_enrolled": 4799,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg155",
-      "learners_enrolled": 1722,
+      "learners_enrolled": 1805,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg156",
-      "learners_enrolled": 760,
+      "learners_enrolled": 775,
       "status": "OK",
       "error": ""
     },
@@ -5851,7 +5851,7 @@
     },
     {
       "course_id": "noc26_mg158",
-      "learners_enrolled": 2940,
+      "learners_enrolled": 3010,
       "status": "OK",
       "error": ""
     },
@@ -5869,13 +5869,13 @@
     },
     {
       "course_id": "noc26_mg81",
-      "learners_enrolled": 1491,
+      "learners_enrolled": 1509,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg82",
-      "learners_enrolled": 1359,
+      "learners_enrolled": 1408,
       "status": "OK",
       "error": ""
     },
@@ -5905,13 +5905,13 @@
     },
     {
       "course_id": "noc26_mg87",
-      "learners_enrolled": 2221,
+      "learners_enrolled": 2305,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg88",
-      "learners_enrolled": 225,
+      "learners_enrolled": 236,
       "status": "OK",
       "error": ""
     },
@@ -5923,7 +5923,7 @@
     },
     {
       "course_id": "noc26_mg90",
-      "learners_enrolled": 282,
+      "learners_enrolled": 286,
       "status": "OK",
       "error": ""
     },
@@ -5941,7 +5941,7 @@
     },
     {
       "course_id": "noc26_mg93",
-      "learners_enrolled": 746,
+      "learners_enrolled": 766,
       "status": "OK",
       "error": ""
     },
@@ -5977,7 +5977,7 @@
     },
     {
       "course_id": "noc26_mg99",
-      "learners_enrolled": 3106,
+      "learners_enrolled": 3206,
       "status": "OK",
       "error": ""
     },
@@ -6013,7 +6013,7 @@
     },
     {
       "course_id": "noc26_mm54",
-      "learners_enrolled": 78,
+      "learners_enrolled": 79,
       "status": "OK",
       "error": ""
     },
@@ -6067,7 +6067,7 @@
     },
     {
       "course_id": "noc26_mm63",
-      "learners_enrolled": 72,
+      "learners_enrolled": 73,
       "status": "OK",
       "error": ""
     },
@@ -6127,13 +6127,13 @@
     },
     {
       "course_id": "noc26_mm73",
-      "learners_enrolled": 196,
+      "learners_enrolled": 200,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mm74",
-      "learners_enrolled": 99,
+      "learners_enrolled": 102,
       "status": "OK",
       "error": ""
     },
@@ -6163,7 +6163,7 @@
     },
     {
       "course_id": "noc26_mm79",
-      "learners_enrolled": 579,
+      "learners_enrolled": 586,
       "status": "OK",
       "error": ""
     },
@@ -6187,7 +6187,7 @@
     },
     {
       "course_id": "noc26_mm83",
-      "learners_enrolled": 329,
+      "learners_enrolled": 331,
       "status": "OK",
       "error": ""
     },
@@ -6211,19 +6211,19 @@
     },
     {
       "course_id": "noc26_mm87",
-      "learners_enrolled": 205,
+      "learners_enrolled": 210,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mm88",
-      "learners_enrolled": 76,
+      "learners_enrolled": 77,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mm89",
-      "learners_enrolled": 108,
+      "learners_enrolled": 110,
       "status": "OK",
       "error": ""
     },
@@ -6259,7 +6259,7 @@
     },
     {
       "course_id": "noc26_oe08",
-      "learners_enrolled": 179,
+      "learners_enrolled": 182,
       "status": "OK",
       "error": ""
     },
@@ -6277,7 +6277,7 @@
     },
     {
       "course_id": "noc26_ph35",
-      "learners_enrolled": 204,
+      "learners_enrolled": 206,
       "status": "OK",
       "error": ""
     },
@@ -6307,19 +6307,19 @@
     },
     {
       "course_id": "noc26_ph40",
-      "learners_enrolled": 410,
+      "learners_enrolled": 416,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ph41",
-      "learners_enrolled": 191,
+      "learners_enrolled": 192,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ph42",
-      "learners_enrolled": 321,
+      "learners_enrolled": 325,
       "status": "OK",
       "error": ""
     },
@@ -6331,7 +6331,7 @@
     },
     {
       "course_id": "noc26_ph44",
-      "learners_enrolled": 717,
+      "learners_enrolled": 721,
       "status": "OK",
       "error": ""
     },
@@ -6355,13 +6355,13 @@
     },
     {
       "course_id": "noc26_ph48",
-      "learners_enrolled": 449,
+      "learners_enrolled": 458,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ph49",
-      "learners_enrolled": 305,
+      "learners_enrolled": 315,
       "status": "OK",
       "error": ""
     },
@@ -6373,19 +6373,19 @@
     },
     {
       "course_id": "noc26_ph51",
-      "learners_enrolled": 242,
+      "learners_enrolled": 247,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ph52",
-      "learners_enrolled": 306,
+      "learners_enrolled": 314,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_ph53",
-      "learners_enrolled": 152,
+      "learners_enrolled": 153,
       "status": "OK",
       "error": ""
     },
@@ -6415,7 +6415,7 @@
     },
     {
       "course_id": "noc26_ph58",
-      "learners_enrolled": 229,
+      "learners_enrolled": 234,
       "status": "OK",
       "error": ""
     },
@@ -6427,7 +6427,7 @@
     },
     {
       "course_id": "noc26_ph60",
-      "learners_enrolled": 287,
+      "learners_enrolled": 293,
       "status": "OK",
       "error": ""
     },
@@ -6445,7 +6445,7 @@
     },
     {
       "course_id": "noc26_ph63",
-      "learners_enrolled": 113,
+      "learners_enrolled": 114,
       "status": "OK",
       "error": ""
     },
