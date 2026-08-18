@@ -1,11 +1,11 @@
 {
-  "updated_at": "18-08-2026 13:22:36",
+  "updated_at": "18-08-2026 13:49:41",
   "generated_by": "github-actions",
-  "github_run_id": "32113434033",
+  "github_run_id": "32115701023",
   "course_count": 1058,
   "numeric_count": 1054,
   "error_count": 4,
-  "total_enrollment": 3923898,
+  "total_enrollment": 3924545,
   "top_courses": [
     {
       "course_id": "noc26_cs161",
@@ -38,14 +38,14 @@
       "error": ""
     },
     {
-      "course_id": "noc26_cs144",
-      "learners_enrolled": 52861,
+      "course_id": "noc26_hs249",
+      "learners_enrolled": 52898,
       "status": "OK",
       "error": ""
     },
     {
-      "course_id": "noc26_hs249",
-      "learners_enrolled": 52529,
+      "course_id": "noc26_cs144",
+      "learners_enrolled": 52861,
       "status": "OK",
       "error": ""
     },
@@ -475,7 +475,7 @@
     },
     {
       "course_id": "noc26_ar37",
-      "learners_enrolled": 1262,
+      "learners_enrolled": 1286,
       "status": "OK",
       "error": ""
     },
@@ -769,7 +769,7 @@
     },
     {
       "course_id": "noc26_bt96",
-      "learners_enrolled": 654,
+      "learners_enrolled": 667,
       "status": "OK",
       "error": ""
     },
@@ -2161,7 +2161,7 @@
     },
     {
       "course_id": "noc26_cs184",
-      "learners_enrolled": 3791,
+      "learners_enrolled": 3835,
       "status": "OK",
       "error": ""
     },
@@ -3595,7 +3595,7 @@
     },
     {
       "course_id": "noc26_ge98",
-      "learners_enrolled": 8011,
+      "learners_enrolled": 8064,
       "status": "OK",
       "error": ""
     },
@@ -4327,7 +4327,7 @@
     },
     {
       "course_id": "noc26_hs249",
-      "learners_enrolled": 52529,
+      "learners_enrolled": 52898,
       "status": "OK",
       "error": ""
     },
@@ -5461,7 +5461,7 @@
     },
     {
       "course_id": "noc26_me196",
-      "learners_enrolled": 2018,
+      "learners_enrolled": 2033,
       "status": "OK",
       "error": ""
     },
@@ -5797,7 +5797,7 @@
     },
     {
       "course_id": "noc26_mg149",
-      "learners_enrolled": 2092,
+      "learners_enrolled": 2107,
       "status": "OK",
       "error": ""
     },
@@ -5839,13 +5839,13 @@
     },
     {
       "course_id": "noc26_mg156",
-      "learners_enrolled": 2850,
+      "learners_enrolled": 2872,
       "status": "OK",
       "error": ""
     },
     {
       "course_id": "noc26_mg157",
-      "learners_enrolled": 9543,
+      "learners_enrolled": 9635,
       "status": "OK",
       "error": ""
     },
