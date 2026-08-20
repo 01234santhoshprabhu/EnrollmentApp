@@ -1,11 +1,11 @@
 {
-  "updated_at": "20-08-2026 20:48:30",
+  "updated_at": "20-08-2026 21:23:09",
   "generated_by": "github-actions",
-  "github_run_id": "32385228855",
+  "github_run_id": "32388678383",
   "course_count": 1058,
   "numeric_count": 1054,
   "error_count": 4,
-  "total_enrollment": 3954012,
+  "total_enrollment": 3954629,
   "top_courses": [
     {
       "course_id": "noc26_cs161",
@@ -80,14 +80,14 @@
       "error": ""
     },
     {
-      "course_id": "noc26_cs133",
-      "learners_enrolled": 42272,
+      "course_id": "noc26_cs188",
+      "learners_enrolled": 42276,
       "status": "OK",
       "error": ""
     },
     {
-      "course_id": "noc26_cs188",
-      "learners_enrolled": 41686,
+      "course_id": "noc26_cs133",
+      "learners_enrolled": 42272,
       "status": "OK",
       "error": ""
     },
@@ -2185,7 +2185,7 @@
     },
     {
       "course_id": "noc26_cs188",
-      "learners_enrolled": 41686,
+      "learners_enrolled": 42276,
       "status": "OK",
       "error": ""
     },
@@ -3571,7 +3571,7 @@
     },
     {
       "course_id": "noc26_ge94",
-      "learners_enrolled": 967,
+      "learners_enrolled": 974,
       "status": "OK",
       "error": ""
     },
@@ -4213,7 +4213,7 @@
     },
     {
       "course_id": "noc26_hs230",
-      "learners_enrolled": 1407,
+      "learners_enrolled": 1411,
       "status": "OK",
       "error": ""
     },
@@ -4321,7 +4321,7 @@
     },
     {
       "course_id": "noc26_hs248",
-      "learners_enrolled": 1245,
+      "learners_enrolled": 1260,
       "status": "OK",
       "error": ""
     },
@@ -4729,7 +4729,7 @@
     },
     {
       "course_id": "noc26_ma143",
-      "learners_enrolled": 741,
+      "learners_enrolled": 742,
       "status": "OK",
       "error": ""
     },
