@@ -1,11 +1,11 @@
 {
-  "updated_at": "26-08-2026 20:25:54",
+  "updated_at": "26-08-2026 21:44:45",
   "generated_by": "github-actions",
-  "github_run_id": "32983161764",
+  "github_run_id": "32987278894",
   "course_count": 1058,
   "numeric_count": 1054,
   "error_count": 4,
-  "total_enrollment": 3959611,
+  "total_enrollment": 3959613,
   "top_courses": [
     {
       "course_id": "noc26_cs161",
@@ -75,7 +75,7 @@
     },
     {
       "course_id": "noc26_cs141",
-      "learners_enrolled": 43183,
+      "learners_enrolled": 43185,
       "status": "OK",
       "error": ""
     },
@@ -1903,7 +1903,7 @@
     },
     {
       "course_id": "noc26_cs141",
-      "learners_enrolled": 43183,
+      "learners_enrolled": 43185,
       "status": "OK",
       "error": ""
     },
